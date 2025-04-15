@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-with-vite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <link rel="stylesheet" href="/src/styles.css">
+</head>
+<body class="bg-linear-135 from-first-grad-f to-first-grad-t lg:grid lg:grid-cols-12 lg:justify-items-start min-h-screen lg:bg-[url(/images/bg-pattern-desktop.svg)] lg:gap-x-4" >
+    <div class="py-4 px-3  lg:px-10 lg:col-span-7 xl:px-20 ">
+      <img src="/images/logo.svg" alt="" srcset="" class="p-4 lg:pt-10" height="100%" width="auto">
+    </div>
+
+      <picture class="lg:row-span-2 lg:col-span-5">
+        <source media="(min-width: 1024px)" srcset="/images/hero-desktop.jpg">
+        <img src="/images/hero-mobile.jpg" alt="" srcset="" class="w-full h-auto">
+      </picture>
+
+    
+    <div class="flex flex-col place-items-center lg:place-items-start lg:grow-0 xl:shrink lg:px-10 xl:px-20  mt-5 mx-3 lg:col-span-7 max-w-lg">
+      <div class="text-center lg:text-left px-10 lg:px-0 tracking-[0.3rem] lg:tracking-[0.5rem] text-wrap py-5 uppercase text-4xl ">
+        <div class="text-desaturated-red font-josefin-light">
+          We're
+        </div>
+        <div class="font-josefin-semibold text-dark-grayish-red">
+          coming soon
+        </div>
+      </div>
+      <div class="font-josefin-regular text-lg text-desaturated-red text-center lg:text-left">
+        Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.  
+      </div>
+  <div>
+    <form class="border my-5 border-desaturated-red opacity-85 rounded-l-full rounded-r-full w-full flex items-center justify-between">
+        <input type="email" id="emailInput" name="" size="20"  class="outline-0 m-3 px-4 font-josefin-regular invalid:border-soft-red text-desaturated-red focus:outline-none" placeholder="Email Address">
+      <div class="flex items-center ">
+        <div class="px-3 shrink-0 hidden" id="emailErrorIcon">
+          <img src="/images/icon-error.svg" alt="" srcset=""  width="auto" >
+        </div>
+        <div class="bg-linear-135 from-second-grad-f to-second-grad-t py-5 px-8 rounded-full right-0 hover:shadow-2xl hover:shadow-second-grad-t hover:cursor-pointer ">
+          <button type="submit" class="" id="emailSubmit">
+            <img src="/images/icon-arrow.svg" alt="" srcset="">
+          </button>
+        </div>
+
+      </div>
+
+    </form>
+    <div class="px-7 text-sm font-josefin-regular text-soft-red hidden" id="emailErrorText">
+      Please provide a valid email
+    </div>
+  </div>
+    
+      
+  
+    </div>
+    
+
+
+
+  
+  <!-- <footer>
+    <p class="attribution opacity-10 text-soft-red">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Toluene</a>.
+    </p>
+  </footer> -->
+  <script src="/src/js/script.js"></script>
+</body>
+</html>
+
+<!-- bg-[url(/images/hero-mobile.jpg)] lg:bg-[url(/images/hero-desktop.jpg)] h-50 -->
